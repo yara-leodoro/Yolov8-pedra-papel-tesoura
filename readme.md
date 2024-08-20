@@ -45,8 +45,7 @@ exportação: yolo export model=best.pt format=onnx
 # <center> Exibição de resultados em vídeo
 
 <center>
- <video controls width="500">
-    <source src="imgs/videoTest.mp4" type="video/mp4">
-    Seu navegador não suporta a reprodução de vídeo.
-</video> 
+<video width="640" height="360" controls>
+  <source src="imgs/videoTest.mp4" type="video/mp4">
+</video>
 </center>
